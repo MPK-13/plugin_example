@@ -1,0 +1,9 @@
+{
+  "templates": [
+    {
+      "name": "Index example",
+      "path": "/index.html",
+      "type": "nunjucks"
+    }
+  ]
+}

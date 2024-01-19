@@ -1,0 +1,52 @@
+{% extends "layouts/main.html" %}
+{% set pageName=serviceName %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">
+      {{serviceName}}
+    </h1>
+
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-with-summary-sections-heading-3"
+          style="font-size: 16pt;">
+          Version iteration title
+        </span>
+      </h2>
+    </div>
+    
+    <div id="accordion-with-summary-sections-content-3" class="govuk-accordion__section-content"
+      aria-labelledby="accordion-with-summary-sections-heading-3">
+
+      <div class="app-most-recent">
+        <strong class="govuk-tag govuk-tag--yellow ">Status Tag</strong>
+        <h2 class="govuk-heading-m govuk-!-padding-top-3">Description</h2>
+        <ol class="govuk-list govuk-list--bullet">
+          <li>Changes made</li>
+          <li>Changes made</li>
+          <li>Changes made</li>
+
+        </ol>
+
+        <div class="govuk-grid-row">
+          <div class="govuk-grid-column-full">
+            <p>Date of design: Date</br>
+              Designers: Names</p>
+          </div>
+
+        </div>
+        <a href="#" class="govuk-button govuk-button--secondary">Link to Prototype</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
