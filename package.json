@@ -1,7 +1,7 @@
 {
-  "name": "index-page",
+  "name": "Opencast-Software-Templates",
   "version": "1.0.0",
-  "description": "Test project",
+  "description": "A set of GOV.UK templates created by the designers at Opencast Software. Freely available for all to use.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
